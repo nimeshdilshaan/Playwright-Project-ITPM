@@ -1,72 +1,44 @@
-Swift Translator - Automated Testing
+# Swift Translator – Automated Testing Project
 
-Student ID: IT23813502
-Name: Dilshan A P N
-Project: Singlish to Sinhala Translator Testing
+**Student ID:** IT23813502  
+**Student Name:** Dilshan A P N  
+**Project Title:** Singlish to Sinhala Translator – Automated UI Testing  
+**Testing Framework:** Playwright  
+**Test Type:** UI Automation Testing  
 
-# 📋 Project Overview
+---
 
-Automated testing for Singlish to Sinhala translator using Playwright.
+## 📌 Project Overview
 
-# Quick Start
+This project focuses on **automated UI testing** for the **Swift Translator** web application, which converts **Singlish input into Sinhala output**.
 
-1. Install Dependencies
+The automation suite is developed using **Playwright** with the **Page Object Model (POM)** architecture to ensure high maintainability, scalability, and readability.  
+Tests are data-driven and validate **real-time translation behavior**, **UI responsiveness**, and **input validation** across multiple scenarios.
 
-bash
+---
+
+## 🎯 Project Objectives
+
+- Verify Singlish → Sinhala translation accuracy  
+- Validate real-time translation updates while typing  
+- Ensure UI stability for different input lengths  
+- Detect incorrect handling of invalid inputs  
+- Generate professional HTML test reports  
+
+---
+
+## ⚙️ Technologies Used
+
+- **Playwright (JavaScript)**
+- **Node.js**
+- **Chromium Browser**
+- **JSON** (Data-driven testing)
+- **HTML Test Reports**
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1️⃣ Install Dependencies
+```bash
 npm install
-2. Install Playwright Browsers
-
-bash
-npx playwright install
-3. Run Tests
-
-bash
-# Run all tests
-npx playwright test
-
-# Run specific test file
-npx playwright test singlishTranslator.spec.js
-
-# Run with browser visible
-npx playwright test --headed
-
-# Run specific test case
-npx playwright test -g "Pos_Fun_0001"
-4. View Reports
-
-bash
-npx playwright show-report
-📁 Project Structure
-
-tests/singlishTranslator.spec.js - Main test file
-pages/TranslatorPage.js - Page Object Model class
-test-data/singlishTestData.json - Test cases (34+ test cases)
-playwright.config.js - Configuration
-package.json - Dependencies
-📊 Test Coverage
-
-34 Test Cases including:
-
-24 Positive cases (S/M/L length)
-10 Negative cases (errors, edge cases)
-Real-time translation testing
-UI functionality testing
-
-# How Tests Work
-
-Opens the translator application
-Loads test data from JSON file
-For each test case:
-
-Enters Singlish text
-Waits for translation
-Compares with expected Sinhala
-Generates detailed HTML report
-
-# 📝 Notes
-
-Tests require internet connection
-Uses Chromium browser by default
-Screenshots saved for failed tests
-HTML report in reports/html-report/
-
