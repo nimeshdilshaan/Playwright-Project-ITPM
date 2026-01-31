@@ -2,7 +2,7 @@
 
 **Student ID:** IT23813502  
 **Student Name:** Dilshan A P N  
-**Module** IT3040 - ITPM   
+**Module:** IT3040 - ITPM   
 **Project Title:** Singlish to Sinhala Translator Testing
 **Testing Framework:** Playwright
 **Test Type:** Automation Testing 
