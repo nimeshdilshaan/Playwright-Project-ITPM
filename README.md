@@ -47,23 +47,26 @@ npm install
 Install Playwright Browsers
 ```
 ### Run Tests
-
+```bash
 npx playwright test
-
+```
 ## Run a specific test file
+```bash
 npx playwright test tests/singlishTranslator.spec.js
-
+```
 ## Run tests with browser UI
+```bash
 npx playwright test --headed
-
+```
 ## Run a specific test case
+```bash
 npx playwright test -g "Pos_Fun_0001"
-
-### View Test Reports
+```
+### 📁 View Test Reports
+```bash
 npx playwright show-report
-
+```
 ### 📁 Report Location:
-
 reports/html-report/
 
 
