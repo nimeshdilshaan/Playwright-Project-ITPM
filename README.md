@@ -2,9 +2,9 @@
 
 **Student ID:** IT23813502  
 **Student Name:** Dilshan A P N  
-**Project Title:** Singlish to Sinhala Translator – Automated UI Testing  
+**Project Title:** Singlish to Sinhala Translator Testing
 **Testing Framework:** Playwright  
-**Test Type:** UI Automation Testing  
+**Test Type:** Automation Testing  
 
 ---
 
@@ -46,3 +46,48 @@ npm install
 ```bash
 Install Playwright Browsers
 ```
+### Run Tests
+
+npx playwright test
+
+## Run a specific test file
+npx playwright test tests/singlishTranslator.spec.js
+
+## Run tests with browser UI
+npx playwright test --headed
+
+## Run a specific test case
+npx playwright test -g "Pos_Fun_0001"
+
+### View Test Reports
+npx playwright show-report
+
+### 📁 Report Location:
+
+reports/html-report/
+
+
+### 📁 Project Structure
+
+project-root/
+│
+├── tests/
+│   └── singlishTranslator.spec.js
+│       # Main test suite
+│
+├── pages/
+│   └── TranslatorPage.js
+│       # Page Object Model class
+│
+├── test-data/
+│   └── singlishTestData.json
+│       # 34+ test cases
+│
+├── reports/
+│   └── html-report/
+│       # HTML test reports
+│
+├── playwright.config.js
+├── package.json
+└── README.md
+
