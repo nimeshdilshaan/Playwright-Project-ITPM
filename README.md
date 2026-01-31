@@ -70,11 +70,3 @@ Uses Chromium browser by default
 Screenshots saved for failed tests
 HTML report in reports/html-report/
 
-# 🔧 Configuration
-
-Edit playwright.config.js for:
-
-Changing browser
-Setting timeouts
-Configuring reporters
-Parallel execution settings
