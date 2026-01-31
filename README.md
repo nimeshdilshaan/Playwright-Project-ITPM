@@ -69,25 +69,30 @@ reports/html-report/
 
 ### 📁 Project Structure
 
-project-root/
+playwright-project/
 │
 ├── tests/
-│   └── singlishTranslator.spec.js
-│       # Main test suite
+│ └── singlishTranslator.spec.js
+│ # Main test suite
 │
 ├── pages/
-│   └── TranslatorPage.js
-│       # Page Object Model class
+│ └── TranslatorPage.js
+│ # Page Object Model class
 │
 ├── test-data/
-│   └── singlishTestData.json
-│       # 34+ test cases
+│ └── singlishTestData.json
+│ # 34+ data-driven test cases
 │
 ├── reports/
-│   └── html-report/
-│       # HTML test reports
+│ └── html-report/
+│ # Playwright HTML test reports
 │
 ├── playwright.config.js
+│ # Playwright configuration
+│
 ├── package.json
+│ # Project dependencies
+│
 └── README.md
+│ # Project documentation
 
