@@ -12,14 +12,14 @@
 
 This project focuses on **automated UI testing** for the **Swift Translator** web application, which converts **Singlish input into Sinhala output**.
 
-The automation suite is developed using **Playwright** with the **Page Object Model (POM)** architecture to ensure high maintainability, scalability, and readability.  
-Tests are data-driven and validate **real-time translation behavior**, **UI responsiveness**, and **input validation** across multiple scenarios.
+The automation suite is developed using **Playwright** with the **Page Object Model (POM)** architecture to ensure high maintainability, scalability and readability.  
+Tests are data-driven and validate **real-time translation behavior**, **UI responsiveness** and **input validation** across multiple scenarios.
 
 ---
 
 ## Project Objectives
 
-- Verify Singlish → Sinhala translation accuracy  
+- Verify Singlish to Sinhala translation accuracy  
 - Validate real-time translation updates while typing  
 - Ensure UI stability for different input lengths  
 - Detect incorrect handling of invalid inputs  
@@ -32,7 +32,7 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 - **Playwright (JavaScript)**
 - **Node.js**
 - **Chromium Browser**
-- **JSON** (Data-driven testing)
+- **JSON** 
 - **HTML Test Reports**
 
 ---
@@ -43,7 +43,6 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 ```bash
 npm install
 ```
-### Install Dependencies
 ```bash
 Install Playwright Browsers
 ```
