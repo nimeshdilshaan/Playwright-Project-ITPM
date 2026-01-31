@@ -1,0 +1,172 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "input": "aayuboovan !",
+    "expectedContains": "ආයුබෝවන් !"
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "input": "mama paan kanna yanavaa",
+    "expectedContains": "මම පාන් කන්න යනවා"
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "input": "mee mata podi udhavvak karannako haloo, rupiyal 10000k vagee dhenna puluvandha? mama anidhdha dhennam, mata mee dhavas vala salli tikak hoya ganna ona.apee campus ekee vaeda valata loku viyadhamak yanava machan.kaeema kanneth kaden.kaeema ekakuth dhaen rupiyal 300k venavaa.dhavase kaeema valatama rupiyala 1000k vagee yana nisa dhaen job ekak hoyaganna oona",
+    "expectedContains": "මේ මට පොඩි උදව්වක් කරන්නකො හලෝ, රුපියල් 10000ක් වගේ දෙන්න පුලුවන්ද?"
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "input": "mata vahaama call ekk ganna",
+    "expectedContains": "මට වහාම call එක්ක් ගන්න"
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "input": "mama gaalu yanavaa, haebaeyi edhdhi raee veavi",
+    "expectedContains": "මම ගාලු යනවා, හැබැයි එද්දි රෑ වේවි"
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "input": "oyaa dhivvoth mama vedi thiyanavaa",
+    "expectedContains": "ඔයා දිව්වොත් මම වෙඩි තියනවා"
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "input": "mama research karanna dhanne naee",
+    "expectedContains": "මම research කරන්න දන්නෙ නෑ"
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "input": "mata thea ekak hadhalaa dhenna puluvandha ?",
+    "expectedContains": "මට තේ එකක් හදලා දෙන්න පුලුවන්ද ?"
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "input": "ov, mata eeka therunaa",
+    "expectedContains": "ඔව්, මට ඒක තෙරුනා"
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "input": "Api kaeema kanna yanavaa Saha saththuvaththa balannath yanavaa",
+    "expectedContains": "අපි කෑම කන්න යනවා සහ සත්තුවත්ත බලන්නත් යනවා"
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "input": "mata magee anagathee gaena baya hithenavaa",
+    "expectedContains": "මට මගේ අනගතේ ගැන බය හිතෙනවා"
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "input": "hithala balala kiyanna",
+    "expectedContains": "හිතල බලල කියන්න"
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "input": "mata koththuvak kanna oonee",
+    "expectedContains": "මට කොත්තුවක් කන්න ඕනේ"
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "input": "haa haa",
+    "expectedContains": "හා හා"
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "input": "mama iiye naeevaa",
+    "expectedContains": "මම ඊයෙ නෑවා"
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "input": "mama heta japan yanavaa",
+    "expectedContains": "මම හෙට ජපන් යනවා"
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "input": "mata pitu kanna bae",
+    "expectedContains": "මට පිටු කන්න බැ"
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "input": "mama nidhaaganna hadhannee",
+    "expectedContains": "මම නිදාගන්න හදන්නේ"
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "input": "api kaeram gahamu",
+    "expectedContains": "අපි කැරම් ගහමු"
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "input": "karuNaakarala mama kiyana dhee ahanavadha ?",
+    "expectedContains": "කරුණාකරල මම කියන දේ අහනවද ?"
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "input": "adha ITPM lecture eka zoom meeting ekak thiyenne havasa 6.00 ta",
+    "expectedContains": "අද ITPM lecture එක zoom meeting එකක් තියෙන්නෙ හවස 6.00 ට"
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "input": "heta Kandy Lamayi Colombo enavaa",
+    "expectedContains": "හෙට Kandy ළමයි Colombo එනවා"
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "input": "Magee PC ekee Ram eka 32GB saha CPU eka AMD ekak",
+    "expectedContains": "මගේ PC එකේ Ram එක 32GB සහ CPU එක AMD එකක්"
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "input": "magee vaetupa rupiyal 10000yi, ee kiyanne USD 32k vagee.",
+    "expectedContains": "මගේ වැටුප රුපියල් 10000යි, ඒ කියන්නෙ USD 32ක් වගේ."
+  },
+  {
+    "id": "Neg_Fun_0001",
+    "input": "mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa,mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa,mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa,mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa, mama gedhara yanawa,",
+    "expectedContains": "මම ගෙදර යනවා"
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "input": "xkwwqjw rufnrre swkdha pqpporl w,ehws",
+    "expectedContains": "Complete random keystrokes."
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "input": "…/////,.;/..",
+    "expectedContains": "…/////,.;/.."
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "input": "I just want You chuttak chuttak.",
+    "expectedContains": "Using mixed English-singular in the middle of a sentence"
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "input": "M.a.t.a. A.y.e. o.n.a",
+    "expectedContains": "Dots between every character break word recognition"
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "input": "karuNaakara ilakkam 2(two) thooraganna",
+    "expectedContains": "කරුණාකර ඉලක්කම් 2(two) තෝරගන්න"
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "input": "jiivithe\nmal\tape\namma\ninnakal (with \\n and \\t)",
+    "expectedContains": "Newlines and tabs may break single-line input parsing"
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "input": "mta bath knna ba",
+    "expectedContains": "Missing vowels makes Singlish unrecognizable"
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "input": "x + y = z > 10 suLu karanna",
+    "expectedContains": "Mathematical symbols mixed with text may cause parsing errors"
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "input": "\"mama vatura godak bonavaa\" vs \"mama godak vathura bonavaa\"",
+    "expectedContains": "\"මම වටුර ගොඩක් බොනවා\" vs \"මම ගොඩක් වතුර බොනවා\""
+  }
+]
