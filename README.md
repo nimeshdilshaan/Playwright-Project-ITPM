@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on **automated UI testing** for the **Swift Translator** web application, which converts **Singlish input into Sinhala output**.
 
@@ -17,7 +17,7 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Verify Singlish → Sinhala translation accuracy  
 - Validate real-time translation updates while typing  
@@ -27,7 +27,7 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **Playwright (JavaScript)**
 - **Node.js**
@@ -37,8 +37,13 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 npm install
+```
+### Install Dependencies
+```bash
+Install Playwright Browsers
+```
