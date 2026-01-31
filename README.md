@@ -2,16 +2,17 @@
 
 **Student ID:** IT23813502  
 **Student Name:** Dilshan A P N  
+**Module** IT3040 - ITPM   
 **Project Title:** Singlish to Sinhala Translator Testing
-**Testing Framework:** Playwright  
-**Test Type:** Automation Testing  
+**Testing Framework:** Playwright
+**Test Type:** Automation Testing 
+ 
 
 ---
 
 ## Project Overview
 
 This project contains automated tests for the SwiftTranslator web application (https://swifttranslator.com), which converts Singlish text to Sinhala.
-
 
 This test suite automates the testing of SwiftTranslator's core functionality. Instead of manually typing test cases and checking outputs, these automated tests can run through 35 different scenarios in minutes.
 
