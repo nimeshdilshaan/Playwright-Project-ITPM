@@ -10,12 +10,28 @@
 
 ## Project Overview
 
-This project focuses on **automated UI testing** for the **Swift Translator** web application, which converts **Singlish input into Sinhala output**.
+This project contains automated tests for the SwiftTranslator web application (https://swifttranslator.com), which converts Singlish text to Sinhala.
 
-The automation suite is developed using **Playwright** with the **Page Object Model (POM)** architecture to ensure high maintainability, scalability and readability.  
-Tests are data-driven and validate **real-time translation behavior**, **UI responsiveness** and **input validation** across multiple scenarios.
+
+This test suite automates the testing of SwiftTranslator's core functionality. Instead of manually typing test cases and checking outputs, these automated tests can run through 35 different scenarios in minutes.
+
+The tests check:
+- Whether translations are accurate
+- How the system handles different sentence types
+- Edge cases like typos, extra spaces, and special characters
+- UI behavior and real-time updates
 
 ---
+
+## Test Coverage
+
+**Functional Tests (33 cases)**
+- 24 positive scenarios - things that should work correctly
+- 10 negative scenarios - testing error handling and edge cases
+
+**UI Tests (2 cases)**
+- Real-time output updates
+
 
 ## Project Objectives
 
@@ -36,10 +52,22 @@ Tests are data-driven and validate **real-time translation behavior**, **UI resp
 - **HTML Test Reports**
 
 ---
+###  Quick Start Guide
 
-##  Quick Start Guide
+Check if it's installed:
+```bash
+node -v
+npm -v
+```
 
-### Install Dependencies
+### Installation
+1. Clone this repository
+```bash
+git https://github.com/nimeshdilshaan/Playwright-Project-ITPM.git
+cd Playwright-project
+```
+
+2. Install Dependencies
 ```bash
 npm install
 ```
@@ -93,3 +121,26 @@ playwright-project/
 └── README.md                            # Project documentation
 
 ```
+## How It Works
+
+All test cases are stored in `test-data/cases.js`. Each test case has:
+- A unique ID (like Pos_Fun_0004)
+- Input text in Singlish
+- Expected output in Sinhala
+- Test description
+
+The main test file (`translator.spec.js`) loops through these cases, enters the input, waits for the output, and compares it with the expected result.
+
+## Notes
+
+- Need an internet connection to run these tests
+- Tests use Chromium browser for consistency
+- Don't close the browser manually while tests are running
+- Some outputs might vary slightly due to how the translation system works
+
+## Technologies Used
+
+- **Playwright** - Browser automation framework
+- **Node.js** - JavaScript runtime
+- **Chromium** - Testing browser
+- **JavaScript** - Programming language
