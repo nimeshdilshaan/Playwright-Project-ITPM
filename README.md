@@ -123,13 +123,12 @@ playwright-project/
 ```
 ## How It Works
 
-All test cases are stored in `test-data/cases.js`. Each test case has:
+All test cases are stored in `singlishTestData.json`. Each test case has:
 - A unique ID (like Pos_Fun_0004)
 - Input text in Singlish
 - Expected output in Sinhala
-- Test description
 
-The main test file (`translator.spec.js`) loops through these cases, enters the input, waits for the output, and compares it with the expected result.
+The main test file (`singlishTranslator`) loops through these cases, enters the input, waits for the output, and compares it with the expected result.
 
 ## Notes
 
